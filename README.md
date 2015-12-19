@@ -8,11 +8,11 @@ addcomment.php - Used to make AJAX calls to add a comment
 
 **comments.html - main file. Contains comments as well as the form to add a comment. Put this in an iFrame to embed Thoughts**
 
-comments.txt - comment storage **In your web server, make sure that the permissions on this file are 6,0,0 (which protects it from being read directly) **
+comments.txt - comment storage **In your web server, make sure that the permissions on this file are 6,0,0 (which protects it from being read directly)**
 
 index.php - Returns the styled comment list. This is embedded in comments.html.
 
-users.txt - user storage for tagging  **In your web server, make sure that the permissions on this file are 6,0,0 (which protects it from being read directly) **
+users.txt - user storage for tagging  **In your web server, make sure that the permissions on this file are 6,0,0 (which protects it from being read directly)**
 
 ### Project Guidelines
 <hr>
