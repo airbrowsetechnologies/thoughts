@@ -33,7 +33,7 @@
 
 
         $commarray = explode(PHP_EOL,$readfile);
-        for ($i = 1; $i < count($commarray); ++$i) {
+        for ($i = count($commarray) - 1; $i >= 0; $i--) {
           if (empty($commarray[$i])) {
             continue;
           } else {
