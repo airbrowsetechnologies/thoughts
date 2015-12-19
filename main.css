@@ -28,10 +28,14 @@ overflow-x:hidden;
 background-color:whitesmoke;
 }
 
+#main {
+  height:100%;
+}
 #content {
   width:calc(100% - 500px);
   border-radius:5px;
   border:1px solid silver;
+  vertical-align:middle;
 }
 
 .formbtn {
