@@ -35,9 +35,11 @@ background-color:whitesmoke;
   width:calc(100% - 500px);
   border-radius:5px;
   border:1px solid silver;
+  margin-top:300px;
   vertical-align:middle;
   padding:50px;
   background-color:white;
+  box-shadow:0px 3px 10px rgba(0,0,0,.2);
 }
 
 .formbtn {
@@ -50,6 +52,7 @@ border:none;
 outline:0;
 font-size:90%;
 margin:10px;
+float:right;
 }
 
 .formbtn:hover {
