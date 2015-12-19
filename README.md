@@ -17,7 +17,7 @@ users.txt - user storage for tagging  **NOTE: In your web server, make sure that
 getusers.php - Returns a list of users (called through AJAX)
 
 
-### Project Guidelines
+### Project Guidelines / Features
 <hr>
 Modern, materialish design
 
@@ -25,6 +25,6 @@ Simple, ease of use
 
 Easy to embed
 
-**User tagging based on "@" + usernames (i.e. @Fred)**
+User tagging based on "@" + usernames (i.e. @Fred)
 
 **FUTURE: Send an email to the admin with comment for validation, who then can accept or reject the comment. If comment is accepted, call addcomment.php from email**
