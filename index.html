@@ -3,6 +3,11 @@
   <head>
     <title>Thoughts</title>
     <link href="main.css" type="text/css" rel="stylesheet" />
+    <script>
+      function loadComments(){
+        document.getElementById("comments").innerHTML = "<iframe src=\"http://airbrowse.x10host.com/projects/thoughts/index.php\" style=\"width:100%;height:500px;outline:none;border:2px solid silver;border-radius:10px;margin-top:50px\">";
+      }
+    </script>
   </head>
   <body>
    
@@ -14,6 +19,11 @@
      <br>
      <a class="formbtn" href="http://github.com/airbrowsetechnologies/thoughts">Go to our GitHub page</a>
      <a class="formbtn" href="http://airbrowse.x10host.com/projects/thoughts">Visit Thoughts</a>
+     
+      <div id="comments">
+     <div onclick="loadComments()" id="load" style="width:100%;padding:20px;outline:none;border:2px solid silver;border-radius:10px;margin-top:50px">Load comments</div>
+   
+     </div>
      </center>
    </center>
   </body>
