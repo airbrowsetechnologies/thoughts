@@ -7,11 +7,11 @@
 font-family:'Open Sans', calibri, sans serif;
 overflow-x:hidden;
 font-weight:100;
-transition:.3s all;
 cursor:pointer;
 -webkit-user-select:none;
 outline:0;
 -webkit-appearance:none;
+transition:.3s all;
 }
 
 html {
