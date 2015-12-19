@@ -28,6 +28,12 @@ overflow-x:hidden;
 background-color:whitesmoke;
 }
 
+#content {
+  width:calc(100% - 500px);
+  border-radius:5px;
+  border:1px solid silver;
+}
+
 .formbtn {
 background-color:#2196f3;
 border-radius:4px;
