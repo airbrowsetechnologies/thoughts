@@ -33,16 +33,18 @@ background-color:whitesmoke;
 }
 #content {
   width:calc(100% - 500px);
-  border-radius:5px;
-  border:1px solid silver;
+  border-radius:5px;  
+  padding:50px;
   margin-top:300px;
   vertical-align:middle;
-  padding:50px;
+  
+  /*border:1px solid silver;
   background-color:white;
-  box-shadow:0px 3px 10px rgba(0,0,0,.2);
+  box-shadow:0px 3px 10px rgba(0,0,0,.2);*/
 }
 
 .formbtn {
+text-decoration:none;
 background-color:#2196f3;
 border-radius:4px;
 color:white;
@@ -50,7 +52,7 @@ padding:10px 25px;
 border:none;
 /*box-shadow:0px 3px 5px rgba(0,0,0,.2);*/
 outline:0;
-font-size:90%;
+font-size:95%;
 margin:10px;
 float:right;
 }
