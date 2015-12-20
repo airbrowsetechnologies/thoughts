@@ -41,7 +41,7 @@ function mainLoad() {
         var iframe = document.getElementById("comframe");
         var frameDoc = iframe.contentDocument || iframe.contentWindow.document;
         var el = frameDoc.getElementById("main-comments");
-        el.scrollTop = el.scrollHeight;
+      
         $("#refresh").removeClass("spinny");
     });
 
@@ -52,9 +52,16 @@ function mainLoad() {
         url: "getusers.php",
     }).done(function(response) {
         var users = response.split("\r\n");
-        for (i=0;i < users.length;i++) {
+        for (i = 0; i < users.length; i++) {
             document.getElementById("users").innerHTML += "<option value=\"@" + users[i] + "\">";
         }
     }).fail(function(data) {
         if (data.responseText !== '') {
-            $("#status").html(data.
+
+            console.log(data.responseText);
+        } else {
+        }
+    });
+
+document.getElementById("comframe").src = "index.php";
+}
