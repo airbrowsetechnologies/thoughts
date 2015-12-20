@@ -41,7 +41,7 @@ function mainLoad() {
         var iframe = document.getElementById("comframe");
         var frameDoc = iframe.contentDocument || iframe.contentWindow.document;
         var el = frameDoc.getElementById("main-comments");
-        /*el.scrollTop = el.scrollHeight;*/
+        el.scrollTop = el.scrollHeight;
         $("#refresh").removeClass("spinny");
     });
 
