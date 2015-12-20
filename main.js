@@ -62,6 +62,10 @@ function mainLoad() {
         } else {
         }
     });
+refreshCommentFrame();
+}
 
+
+function refreshCommentFrame() {
 document.getElementById("comframe").src = "index.php";
 }
